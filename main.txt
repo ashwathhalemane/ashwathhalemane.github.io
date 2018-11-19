@@ -1,0 +1,121 @@
+$(document).ready(function(){
+    $('#responseCard').css('display', 'none');
+    $("#searchBtn").click(function(e){
+        e.preventDefault();
+        var imdbVal = $("#imdbID").val()
+        if(imdbVal == "" || imdbVal== null){
+            alert("Please enter IMDB ID.")
+        }
+        else{
+            alert("Hi")
+
+            $.ajax({url: "http://www.omdbapi.com/?apikey=ed881fa8&t="+imdbVal, success: function(response){
+                // console.log(response);
+                    $('#responseCard').css('display', 'block');
+                    
+                    console.log(response);
+                    
+                    $('#profilePhoto').html('<img src="' + response.Poster + '" class="img-fluid profileHeight"/>');
+                    $('#title').append(response.Title);
+                    $('#plot').append(response.Plot);
+                    //
+                    for(var res in response){
+                        console.log(res + "-->" +response[res]);
+                        if(typeof response[res] == "object"){
+                            alert("object found")
+                            var ratingResponse = response[res];
+                            alert(ratingResponse)
+                            for(var another in ratingResponse){
+                                $('.card').append(res +": " +ratingResponse[another]+ "<br>");
+                            }
+                        }
+                        else{
+                                $('.card').append(res +": " +response[res]+ "<br>");
+                        }
+
+                    }
+
+                    // traceAllObjects(response)
+                    //
+                    // function traceAllObjects(response){
+                    //     for(var res in response){
+                    //         if(typeof response[res]=='object'){
+                    //             $('.card').append(res +": " +response[res]+ "<br>");
+                    //             for(var i=0; i<response[res].length;i++){
+                    //                 traceAllObjects(response[res[i]]);
+                    //             }
+                    //
+                    //         }
+                    //         else{
+                    //             alert('Lol')
+                    //         }
+                    //     }
+                    // }
+
+            }});
+        }
+        
+    });
+});
+
+
+// main document ready function to check if dom is loaded fully or not
+
+// $(document).ready(() => {
+
+//     $('#responseCard').css('display', 'none');
+//     // myFacebookToken = prompt("Please enter your Facebook Token:", "");
+//     $("#searchBtn").click(function(){
+//         var imdbVal = $("#imdbID").val()
+//         if (imdbVal == null || imdbVal == "") {
+
+//             alert("Enter ID :");
+    
+//         } else {
+    
+//            getAllDetails();
+    
+//         } // end if condition
+//     });
+    
+
+// }); // end document.ready function
+
+// let getAllDetails = () => {
+    
+//     // API call to get user details
+//     // alert("hhhiiii")
+//     alert(imdbVal)
+
+//     $.ajax({
+//         type: 'GET',
+//         dataType: 'json',
+//         async: true,
+//         url:'http://www.omdbapi.com/?apikey=ed881fa8&i=tt0491603',
+//         success: (response) => {
+
+//                     alert(response)                
+//                     alert("Hi!");
+
+//                     $('#responseCard').css('display', 'block');
+                    
+//                     console.log(response);
+//                     //alert(response);
+//                     alert(response.Title)
+//                     $('#title').append(response.Title);
+        
+//                     $('#plot').append(response.Plot);
+            
+
+
+
+//         }, error: (err) => {
+
+//             console.log(err.responseJSON.error.message);
+//             alert(err.responseJSON.error.message)
+
+//         }
+
+//     });// end ajax call 
+
+// }

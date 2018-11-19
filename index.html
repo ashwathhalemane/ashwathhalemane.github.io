@@ -1,0 +1,68 @@
+<html>
+
+<head>
+	<meta charset="utf-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="style.css">  
+
+</head>
+
+<body>
+ 
+    <section id="blockOfCard">
+            <div class="container">
+                    <h2 style="margin-top: 3vh">Search your favorite movies!</h2>
+                    <hr>
+                    <div>
+                        <h3>You can select by Title or by IMDB ID :</h3>
+                        <form>
+                                <div class="form-row">
+                                  <div class="form-group col-md-6">
+                                    <input type="text" class="form-control" id="imdbID" placeholder="Enter title or IMDB ID :">
+                                    <input type="radio" name="radioBtn" value="Title" id="titleBtn" checked>
+                                    <label for="Title">Title</label>
+                                    <input type="radio" name="radioBtn" value="Id" id="imdbIdBtn">
+                                    <label for="Id">ID</label>
+                                  </div>
+
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <button type="submit" class="btn" id="searchBtn">Search</button>
+                                </div>
+                        </form>
+
+                        <section id="responseCard">
+                                <div class="card" style="width: 18rem;padding: 2rem">
+                                        <div id="profilePhoto" alt="Card image cap" style="margin:1em 0 1em 0;"></div>
+                                          <div class="card-body">
+                                          <h5 class="card-title" id="title"></h5>
+                                          <p class="card-text" id="plot"></p>
+                                        </div>
+                                </div>
+                        </section>
+                       
+                    </div>
+                    <hr>
+        
+            </div>
+    </section>
+    
+    
+
+</body>
+
+<!-- External Scripts -->
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="main.js"></script>
+
+</html>
