@@ -11,7 +11,7 @@ A Computer Science graduate with four years of experience as a **Software Engine
 ***
 
 
-✔️ **Skills**:
+👨🏾‍🍳​ **Skills**:
 
 
 Proficient in a wide range of technical skills including programming languages like Java, **Python**, Golang, and Bash scripting, as well as databases such as **PostgreSQL**, Redis, and Apache Hadoop. Experienced with graphics libraries such as openGL, MATLAB for computer vision, and **Deep Learning** frameworks like Keras and TensorFlow. Hands-on experience with **security tools** such as Nmap, Nessus, Wireshark, and Metasploit, along with Synk, Invicti, Nikto, and SQLMap. Proficient in utilizing GCP Cloud services, Docker, CircleCI, GIT, Splunk, and API Security practices.
@@ -20,7 +20,7 @@ Proficient in a wide range of technical skills including programming languages l
 ***
 
 
-✔️ **Education**:
+🎓 **Education**:
 
 
 MS in Computer Science, minor in Big Data from Rochester Institute of Technology, May 2024
@@ -29,7 +29,7 @@ MS in Computer Science, minor in Big Data from Rochester Institute of Technology
 ***
 
 
-✔️ **Work Experience**:
+🎻​ **Work Experience**:
 - Worked as **Security Engineer Intern** at Infinitus AI(2X), **Silicon Valley based AI startup company**, May 2022-Aug 2022, May 2023-Aug 2023, San Francisco, California
 - Worked as **Senior Software Engineer, Security** at CGI Global, Bangalore, India 2017-2021
 
@@ -37,7 +37,7 @@ MS in Computer Science, minor in Big Data from Rochester Institute of Technology
 ***
 
 
-✔️ **Links to my work**: 
+🖇️ **Links to my work**: 
 
 | Website          | Profile           |
 |------------------|----------------------------------------------|
@@ -50,7 +50,7 @@ MS in Computer Science, minor in Big Data from Rochester Institute of Technology
 
 ***
 
-✔️ **Projects**:
+📽️ **Projects**:
 - **Academic Projects**:
   - **Web Services and Service Oriented Architecture**:
     - Parse, store, manage, and analyze the service data retrieved from ProgrammableWeb.
