@@ -1,13 +1,9 @@
-<h1 align="center">Welcome to Ashwath's portfolio 👋</h1>
+<!-- <h1 align="center">Welcome to Ashwath's portfolio 👋</h1> -->
 
 
+✔️ **Summary**:
 
-
-## Sections
-
-
-✔️ Summary:
-
+***
 
 A Computer Science graduate with four years of experience as a **Software Engineer**, specializing in the **Security domain**, particularly in Application security, vulnerability management, penetration testing, and identity-related projects. I am particularly drawn to roles involving impactful projects in Software Engineering, Full-stack Development, Backend Development, Security Analytics & AI research, and Application Security.
 
@@ -15,7 +11,7 @@ A Computer Science graduate with four years of experience as a **Software Engine
 ***
 
 
-✔️ Skills:
+✔️ **Skills**:
 
 
 Proficient in a wide range of technical skills including programming languages like Java, **Python**, Golang, and Bash scripting, as well as databases such as **PostgreSQL**, Redis, and Apache Hadoop. Experienced with graphics libraries such as openGL, MATLAB for computer vision, and **Deep Learning** frameworks like Keras and TensorFlow. Hands-on experience with **security tools** such as Nmap, Nessus, Wireshark, and Metasploit, along with Synk, Invicti, Nikto, and SQLMap. Proficient in utilizing GCP Cloud services, Docker, CircleCI, GIT, Splunk, and API Security practices.
@@ -24,7 +20,7 @@ Proficient in a wide range of technical skills including programming languages l
 ***
 
 
-✔️ Education:
+✔️ **Education**:
 
 
 MS in Computer Science, minor in Big Data from Rochester Institute of Technology, May 2024
@@ -33,16 +29,29 @@ MS in Computer Science, minor in Big Data from Rochester Institute of Technology
 ***
 
 
-✔️ Work Experience:
-- Worked as **Security Engineer Intern** at Infinitus Systems(2X), **Silicon Valley based AI startup company**, May 2022-Aug 2022, May 2023-Aug 2023, San Francisco
-- Worked as **Senior Software Engineer** at CGI Global, Bangalore, 2017-2021
+✔️ **Work Experience**:
+- Worked as **Security Engineer Intern** at Infinitus AI(2X), **Silicon Valley based AI startup company**, May 2022-Aug 2022, May 2023-Aug 2023, San Francisco, California
+- Worked as **Senior Software Engineer, Security** at CGI Global, Bangalore, India 2017-2021
 
 
 ***
 
 
-✔️ Projects:
-- Academic Projects:
+✔️ **Links to my work**: 
+
+| Website          | Profile           |
+|------------------|----------------------------------------------|
+| [Github]   | [Link](https://github.com/ashwathhalemane)       |
+| [PentesterLab] | [Link](https://pentesterlab.com/profile/9d3a8cd852d382375c86434c83) |
+| [Leetcode] | [Link](https://leetcode.com/u/ash_wattha) |
+| [Codechef] | [Link](https://www.codechef.com/users/ashwa) |
+| [Email] | [Link](mailto:ah7387@rit.edu) | 
+| [LinkedIn] | [Link](https://www.linkedin.com/in/ashwath-s-halemane) |
+
+***
+
+✔️ **Projects**:
+- **Academic Projects**:
   - **Web Services and Service Oriented Architecture**:
     - Parse, store, manage, and analyze the service data retrieved from ProgrammableWeb.
       - Design the data structure for MongoDB database, parse the text files and load the data to the
@@ -74,17 +83,15 @@ found in the title, summary, or the description of the Mashups.
     - Code for all the above can be found under my github repos: [Link here](https://github.com/ashwathhalemane/CSCI-631-Computer-Vision)
 
 
-- Personal Projects:
+- **Personal Projects**:
   - **MEAN stack** projects including a front-end blogging application in **Angular** can be found [here](https://github.com/ashwathhalemane/Angular-7-Blog-App-).  
   - The backend API corresponding to the aforementioned frontend is available [here](https://github.com/ashwathhalemane/REST-API-Blog-app). Within this project, I've incorporated **Snyk** and **SonarCloud** to identify application security concerns, simulating how security vulnerabilities can emerge in the Software Development Life Cycle (SDLC). As part of this effort, I addressed two minor vulnerabilities: Cross-site Scripting (XSS) and SQL injection. This was achieved by implementing measures such as sanitizing user input using the `escapeHTML` function and ensuring proper data handling by converting `req.params.blogId` to a string before utilizing it in a database query. Commit can be found [here](https://github.com/ashwathhalemane/REST-API-Blog-app/commit/b3f3e5f6b93fa26087ccb23d4f31b043371a92ca).  
   - You can find some of my exploration in the realm of **Cybersecurity** [here](https://github.com/ashwathhalemane/hacking-exercise), where I've engaged with diverse Capture The Flag (CTF) competitions, hacking challenges from platforms like HackTheBox, CTFlearn, rootme and developed custom tools tailored for these challenges.
   - In the past, I was involved in developing an **Android application** for a friend's college business, serving as an online catalog. You can explore it [here](https://phoneky.com/android/?id=d1d169677).
 
-
   ***
 
-
-✔️ Courses:
+✔️ **Relevant courses**:
 - Data Structures and Algorithms:
   - Foundations of Algorithms: Implemented various algorithms in the following topics:
     - Divide-and-conquer algorithms and recurrences
@@ -122,54 +129,7 @@ service data retrieved from ProgrammableWeb. More about this in project section.
   - Foundations of Cybersecurity: Worked on implementing RBAC for healthcare to detect insider threats using Prometheus client. Research survey paper on Fuzz testing, OSS security, XS-leaks and Flow-Limited Authorization for Quorum Replication.  
   - Foundations of Distributed Systems
 - Computer Graphics:
-  - Foundation of computer graphics: Projects discussed in detail below.
-
-
-
-
-
-
-***
-
-
-✔️ Github Profile:
-- [Link](https://github.com/ashwathhalemane)
-
-
-***
-
-
-✔️ Codechef profile:
-- [Link](https://www.codechef.com/users/ashwa)
-
-
-***
-
-
-✔️ LinkedIn Profile:
-- [Link](https://www.linkedin.com/in/ashwath-s-halemane/)
-
-
-***
-
-✔️ Pentesterlab Profile: Code reviews and Cybersecurity exercise
-- [Link](https://pentesterlab.com/profile/9d3a8cd852d382375c86434c83) 
-
-
-***
-
-✔️ Leetcode Profile: 
-- [Link](https://leetcode.com/u/ash_wattha) 
-
-***
-
-✔️ Contact:
-  - [Email](mailto:ah7387@rit.edu)
-
-
-***
-
-
+  - Foundation of computer graphics: Projects discussed in detail above.
 
 
 
