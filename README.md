@@ -152,6 +152,16 @@ service data retrieved from ProgrammableWeb. More about this in project section.
 
 ***
 
+✔️ Pentesterlab Profile: Code reviews and Cybersecurity exercise
+- [Link](https://pentesterlab.com/profile/9d3a8cd852d382375c86434c83) 
+
+
+***
+
+✔️ Leetcode Profile: 
+- [Link](https://leetcode.com/u/ash_wattha) 
+
+***
 
 ✔️ Contact:
   - [Email](mailto:ah7387@rit.edu)
