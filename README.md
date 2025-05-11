@@ -37,7 +37,7 @@ MS in Computer Science, minor in Big Data from Rochester Institute of Technology
 ***
 
 
-🖇️ **Links to my work**: <img src="./assets/50_Days_Badge_Leetcode.gif" alt="leetcode 50+ days" width="20"/>
+🖇️ **Links to my work**: <img src="./assets/50_Days_Badge_Leetcode.gif" alt="leetcode icon" width="30" style="animation: bounce 0.8s ease-in-out infinite alternate;"/>
 
 | Website          | Profile           |
 |------------------|----------------------------------------------|
