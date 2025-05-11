@@ -37,7 +37,7 @@ MS in Computer Science, minor in Big Data from Rochester Institute of Technology
 ***
 
 
-🖇️ **Links to my work**: 
+🖇️ **Links to my work**: <img src="./assets/50_Days_Badge_Leetcode.gif" alt="leetcode 50+ days" width="20"/>
 
 | Website          | Profile           |
 |------------------|----------------------------------------------|
@@ -47,6 +47,7 @@ MS in Computer Science, minor in Big Data from Rochester Institute of Technology
 | [Codechef] | [Link](https://www.codechef.com/users/ashwa) |
 | [Email] | [Link](mailto:ah7387@rit.edu) | 
 | [LinkedIn] | [Link](https://www.linkedin.com/in/ashwath-s-halemane) |
+
 
 ***
 
